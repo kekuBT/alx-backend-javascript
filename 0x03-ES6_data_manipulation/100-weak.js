@@ -14,4 +14,4 @@ const queryAPI = (endpoint) => {
   return times;
 };
 
-export { weakMap, queryAPI };
+export { weakMap, queryAPI }; 
