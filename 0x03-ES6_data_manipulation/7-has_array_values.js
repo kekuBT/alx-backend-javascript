@@ -1,11 +1,11 @@
 const hasValuesFromArray = (set, array) => {
-    for (const item of array) {
-        if (!set.has(item)) {
-            return false;
-        }
+  for (const item of array) {
+    if (!set.has(item)) {
+      return false;
     }
+  }
 
-    return true;
+  return true;
 };
 
 export default hasValuesFromArray;

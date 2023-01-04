@@ -1,9 +1,9 @@
 const getStudentIdsSum = (students) => {
-    const all = students
-        .map((student) => student.id)
-        .reduce((studentPrev, studentCurrent) => studentPrev + studentCurrent);
+  const all = students
+    .map((student) => student.id)
+    .reduce((studentPrev, studentCurrent) => studentPrev + studentCurrent);
 
-    return all;
+  return all;
 };
 
 export default getStudentIdsSum;
